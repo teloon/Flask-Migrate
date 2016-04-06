@@ -8,13 +8,13 @@ from setuptools import setup
 
 
 setup(
-    name='Flask-Migrate',
+    name='Flask-Migrate-tw',
     version='1.8.0',
     url='http://github.com/miguelgrinberg/flask-migrate/',
     license='MIT',
-    author='Miguel Grinberg',
-    author_email='miguelgrinberg50@gmail.com',
-    description=('SQLAlchemy database migrations for Flask applications '
+    author='Yan Wu',
+    author_email='telooon@gmail.com',
+    description=('A custom version of Flask-Migrate, which depends on  Flask-SQLAlchemy-tw(v3.0)'
                  'using Alembic'),
     long_description=__doc__,
     packages=['flask_migrate'],
@@ -23,7 +23,7 @@ setup(
     platforms='any',
     install_requires=[
         'Flask>=0.9',
-        'Flask-SQLAlchemy>=1.0',
+        'Flask-SQLAlchemy-tw>=3.0',
         'alembic>=0.6',
         'Flask-Script>=0.6'
     ],
